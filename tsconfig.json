@@ -1,7 +1,7 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "baseUrl": "./",
+    "baseUrl": "src",
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "declaration": false,
@@ -12,7 +12,8 @@
       "@environment/*": ["environments/*"],
       "@components/*": ["app/components/*"],
       "@pages/*": ["app/pages/*"],
-      "@providers/*": ["app/providers/*"]
+      "@providers/*": ["app/providers/*"],
+      "@models/*": ["app/models/*"]
     },
     "module": "esnext",
     "moduleResolution": "node",

@@ -6,7 +6,7 @@ import { HttpService } from './providers/apis/http';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ComponentsModule } from './components/components.module';
+import { ComponentsModule } from '@components/components.module';
 import { AppRoutingModule } from './app.routing.module';
 
 //Ant Modules

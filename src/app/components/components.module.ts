@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
-import { ClassComponent } from './class/class.component';
+import { ClassComponent } from '@components/class/class.component';
 
 const PAGES_COMPONENTS = [
   ClassComponent

@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { UserProvider } from '../../apis/user/user';
+import { UserProvider } from '@providers/apis/user/user';
 
 @Injectable({
   providedIn: 'root'
