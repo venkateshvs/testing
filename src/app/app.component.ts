@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AxiosInterceptors } from './app.axios.interceptors';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'inext-freelance-service';
+  constructor(private axiosInterceptors: AxiosInterceptors) { }
 }

@@ -7,6 +7,13 @@
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
+    "paths": {
+      "@app/*": ["app/*"],
+      "@environment/*": ["environments/*"],
+      "@components/*": ["app/components/*"],
+      "@pages/*": ["app/pages/*"],
+      "@providers/*": ["app/providers/*"]
+    },
     "module": "esnext",
     "moduleResolution": "node",
     "importHelpers": true,

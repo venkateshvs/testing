@@ -1,0 +1,12 @@
+/** Ionic CSS Variables **/
+:root {
+  /** color **/
+  --white: #ffffff;
+  --navy-blue: #0079c0;
+  --black: #000000;
+  --green: #4c9935;
+  --grey: #8f8e94;
+  /** variables **/
+  --class-bg-color: var(--green);
+  --class-text-color: var(--white);
+}
