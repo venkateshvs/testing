@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { UserService } from '@providers/service/user/user.service';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +8,29 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  // -------------------------------------------------------------------------
+  // Dependency Injection
 
-  ngOnInit() {
+  constructor(private userService: UserService) { }
+
+  // -------------------------------------------------------------------------
+  // Events
+
+  public ngOnInit() {
+    this.fetchUsers();
+  }
+
+  // -------------------------------------------------------------------------
+  // Methods
+
+  /**
+   * @function fetchUsers
+   * Method to fetch users
+   */
+  private fetchUsers() {
+    this.userService.fetchUsers().then((response) => {
+      console.log("response", response)
+    });
   }
 
 }
