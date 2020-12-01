@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { AxiosInterceptors } from './app.axios.interceptors';
 
 @Component({
   selector: 'app-root',
@@ -7,5 +6,5 @@ import { AxiosInterceptors } from './app.axios.interceptors';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  constructor(private axiosInterceptors: AxiosInterceptors) { }
+  isCollapsed = false;
 }

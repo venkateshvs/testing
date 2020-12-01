@@ -24,9 +24,15 @@
             "tsConfig": "tsconfig.app.json",
             "aot": false,
             "assets": [
-              "src/assets"
+              "src/assets",
+              {
+                "glob": "**/*",
+                "input": "./node_modules/@ant-design/icons-angular/src/inline-svg/",
+                "output": "/assets/"
+              }
             ],
             "styles": [
+              "src/theme.less",
               "src/theme/variables.scss",
               "src/global.scss"
             ],
@@ -125,6 +131,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "inext-freelance-service"
 }
