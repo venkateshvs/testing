@@ -13,7 +13,6 @@ export class AxiosInterceptors {
   }
 
   public requestHandler(request) {
-    console.log("in axios requestHandler")
     return request;
   }
 

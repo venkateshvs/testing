@@ -28,8 +28,8 @@ export class HomeComponent implements OnInit {
    * Method to fetch users
    */
   private fetchUsers() {
-    this.userService.fetchUsers().then((response) => {
-      console.log("response", response)
+    return this.userService.fetchUsers().then((response) => {
+      return response;
     });
   }
 

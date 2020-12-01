@@ -9,7 +9,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ComponentsModule } from '@components/components.module';
 import { AppRoutingModule } from './app.routing.module';
 
-//Ant Modules
+// Ant Modules
 import { NzButtonModule } from 'ng-zorro-antd/button';
 
 
